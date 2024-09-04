@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>MaxGraph New Site</title>
+  <link rel="preload" href="fonts/MullerRegular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+
+</head>
+
+  <body class="page__body">
+    <div class="site-container">
+      <header class="header">
+  <div class="header__top">
+    <div class="container">
+      <a href="#" class="header__logo">
+        <img src="./img/logo.png" class="header__img" alt="header-logo" />
+      </a>
+      <div class="header__contact">
+        <ul class="header__list list-reset">
+          <li class="header__item">
+            <a href="tel:+79212381439" class="header__link">
+              <svg
+                width="41"
+                height="41"
+                viewBox="0 0 41 41"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M32.8512 26.0692L28.512 25.5737C28.0018 25.5138 27.4847 25.5703 26.9994 25.739C26.5142 25.9076 26.0734 26.1841 25.7104 26.5475L22.567 29.6908C17.7177 27.2239 13.7761 23.2822 11.3091 18.4329L14.4695 15.2725C15.2041 14.5379 15.5629 13.5129 15.4433 12.4708L14.9479 8.16583C14.8514 7.33231 14.4515 6.56345 13.8246 6.0058C13.1976 5.44815 12.3874 5.14071 11.5483 5.14208H8.59286C6.66245 5.14208 5.05661 6.74791 5.1762 8.67833C6.08161 23.2675 17.7495 34.9183 32.3216 35.8237C34.252 35.9433 35.8579 34.3375 35.8579 32.4071V29.4517C35.8749 27.7262 34.5766 26.2742 32.8512 26.0692Z"
+                  fill="#1E1E1E"
+                />
+              </svg>
+
+              <span> 8-921-238-14-39</span>
+            </a>
+          </li>
+          <li class="header__item">
+            <a href="mailto:mail@mail.ru" class="header__link">
+              <svg
+                width="41"
+                height="41"
+                viewBox="0 0 41 41"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6.83366 34.1667C5.89408 34.1667 5.09002 33.8324 4.42149 33.1639C3.75296 32.4953 3.41813 31.6907 3.41699 30.75V10.25C3.41699 9.31041 3.75183 8.50636 4.42149 7.83783C5.09116 7.1693 5.89521 6.83447 6.83366 6.83333H34.167C35.1066 6.83333 35.9112 7.16816 36.5809 7.83783C37.2505 8.50749 37.5848 9.31155 37.5837 10.25V30.75C37.5837 31.6896 37.2494 32.4942 36.5809 33.1639C35.9123 33.8335 35.1077 34.1678 34.167 34.1667H6.83366ZM20.5003 22.2083L34.167 13.6667V10.25L20.5003 18.7917L6.83366 10.25V13.6667L20.5003 22.2083Z"
+                  fill="#1E1E1E"
+                />
+              </svg>
+
+              <span>mail@mail.ru</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
+<label class="burger" for="burger-checkbox"></label>
+    </div>
+  </div>
+  <div class="container header__bottom-container">
+    <div class="header__bottom">
+      <nav class="nav" title="">
+        <ul class="list-reset nav__list">
+          <li class="nav__item">
+            <a href="#learn" class="nav__link">B категория</a>
+          </li>
+          <li class="nav__item">
+            <a href="#learn" class="nav__link">A категория</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">Обучение</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contacts" class="nav__link">Контакты</a>
+          </li>
+          <li class="nav__item">
+            <a href="#documents" class="nav__link">Документы</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class= "mobile-container" id="mobile-menu">
+    <nav class="nav" title="">
+        <ul class="list-reset nav__list">
+          <li class="nav__item">
+            <a href="#learn" class="nav__link">B категория</a>
+          </li>
+          <li class="nav__item">
+            <a href="#learn" class="nav__link">A категория</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">Обучение</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contacts" class="nav__link">Контакты</a>
+          </li>
+          <li class="nav__item">
+            <a href="#documents" class="nav__link">Документы</a>
+          </li>
+        </ul>
+      </nav>
+  </div>
+</header>
+
+      <main class="main">
+        <section class="hero">
+  <div class="container hero__container">
+    <div class="hero__text">
+      <h1 class="section__title hero__title">
+        ПОЛУЧИТЕ ПРАВА <br> «B» КАТЕГОРИИ <br>
+        <span>ЗА 3 МЕСЯЦА ОБУЧЕНИЯ</span>
+      </h1>
+      <ul class="list-reset hero__list">
+        <li class="hero__item text">
+          <svg
+            width="65"
+            height="62"
+            viewBox="0 0 65 62"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M33.4511 6.69098L32.5 3.76393L31.5489 6.69098L25.5993 25.002H6.34595H3.26826L5.75816 26.8111L21.3345 38.1279L15.3848 56.4389L14.4338 59.366L16.9237 57.557L32.5 46.2401L48.0763 57.557L50.5662 59.366L49.6152 56.4389L43.6655 38.1279L59.2418 26.8111L61.7317 25.002H58.6541H39.4007L33.4511 6.69098Z"
+              stroke="#00CCFF"
+              stroke-width="2"
+            />
+          </svg>
+
+          Описание преимущества перед конкурентами
+        </li>
+        <li class="hero__item text">
+          <svg
+            width="65"
+            height="62"
+            viewBox="0 0 65 62"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M33.4511 6.69098L32.5 3.76393L31.5489 6.69098L25.5993 25.002H6.34595H3.26826L5.75816 26.8111L21.3345 38.1279L15.3848 56.4389L14.4338 59.366L16.9237 57.557L32.5 46.2401L48.0763 57.557L50.5662 59.366L49.6152 56.4389L43.6655 38.1279L59.2418 26.8111L61.7317 25.002H58.6541H39.4007L33.4511 6.69098Z"
+              stroke="#00CCFF"
+              stroke-width="2"
+            />
+          </svg>
+
+          Описание преимущества перед конкурентами
+        </li>
+        <li class="hero__item text">
+          <svg
+            width="65"
+            height="62"
+            viewBox="0 0 65 62"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M33.4511 6.69098L32.5 3.76393L31.5489 6.69098L25.5993 25.002H6.34595H3.26826L5.75816 26.8111L21.3345 38.1279L15.3848 56.4389L14.4338 59.366L16.9237 57.557L32.5 46.2401L48.0763 57.557L50.5662 59.366L49.6152 56.4389L43.6655 38.1279L59.2418 26.8111L61.7317 25.002H58.6541H39.4007L33.4511 6.69098Z"
+              stroke="#00CCFF"
+              stroke-width="2"
+            />
+          </svg>
+
+          Описание преимущества перед конкурентами
+        </li>
+      </ul>
+      <button class="btn hero__btn modal-open btn-reset">
+        заполнить заявку
+      </button>
+    </div>
+    <img src="./img/hero.png" alt="hero-img">
+  </div>
+</section>
+ <section class="learn" id="learn">
+  <div class="container">
+    <h2 class="section__title learn__title"><span>ЗАПИСЬ</span> НА ОБУЧЕНИЕ</h2>
+    <ul class="learn__list list-reset">
+      <li class="learn__item">
+        <div class="learn__text">
+          <h3 class="learn__item-title text">
+            Подготовка водителей транспортных средств категории «Б» (механика)
+          </h3>
+          <p class="learn__item-descr text">Срок обучения от 3 месяца</p>
+        </div>
+        <img
+          loading="lazy"
+          src="../img/svg/Sedan.svg"
+          class="image"
+          width=""
+          height=""
+          alt=""
+        />
+        <a href="tel:+79212381439" class="btn learn__btn"> ПОЗВОНИТЬ </a>
+      </li>
+      <li class="learn__item">
+        <div class="learn__text">
+          <h3 class="learn__item-title text">
+            Подготовка водителей транспортных средств категории «Б» (механика)
+          </h3>
+          <p class="learn__item-descr text">Срок обучения от 3 месяца</p>
+        </div>
+        <img
+          loading="lazy"
+          src="../img/svg/Compact.svg"
+          class="image"
+          width=""
+          height="" 
+          alt=""
+        />
+        <a href="tel:+79212381439" class="btn learn__btn"> ПОЗВОНИТЬ </a>
+      </li>
+      <li class="learn__item">
+        <div class="learn__text">
+          <h3 class="learn__item-title text">
+            Подготовка водителей транспортных средств категории «Б» (механика)
+          </h3>
+          <p class="learn__item-descr text">Срок обучения от 3 месяца</p>
+        </div>
+        <img
+          loading="lazy"
+          src="../img/svg/Chopper.svg"
+          class="image"
+          width=""
+          height=""
+          alt=""
+        />
+        <a href="tel:+79212381439" class="btn learn__btn"> ПОЗВОНИТЬ </a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+        <section class="about" id="about">
+  <div class="container">
+    <div class="about__wrapper">
+      <div class="about__text">
+        <h2 class="section__title about__title">Об <span>автошколе</span></h2>
+        <p class="about__descr section__descr text">
+          Автошкола «Престиж» в Вологде предлагает качественное обучение
+          вождению для категорий A и B. Мы готовим водителей как на автомобилях
+          с механической коробкой передач (МКПП), так и с автоматической (АКПП).
+          Наши опытные инструкторы помогут вам уверенно освоить навыки
+          управления транспортом и успешно сдать экзамены. Автошкола удобно
+          расположена по адресу: г. Вологда ул. Пошехонское шоссе, д. 1. Выбирая «Престиж»,
+          вы получаете профессиональное обучение в комфортных условиях и
+          уверенность на дороге.
+        </p>
+      </div>
+      <img src="../img/form.png" alt="" />
+    </div>
+  </div>
+</section>
+ <section class="form">
+  <div class="container form__container">
+    <div class="form__wrapper">
+      <h2 class="form__title section__title"><span>ФОРМА</span> ОБРАТНОЙ СВЯЗИ</h2>
+      <form id="form" action="">
+        <label for="name">Имя</label>
+        <input name="name" type="text" placeholder="Имя" />
+
+        <label class="control-label col-sm-2">Телефон:</label>
+        <div class="col-sm-10">
+          <input
+            type="text"
+            class="form-control"
+            name="phoneNumber"
+            id="phoneNumber" 
+            value=""
+            placeholder="Телефон*"
+          />
+        </div>
+        <label for="descr">Описание</label>
+        <textarea id="form-descr" name="descr" type="text" placeholder="Описание"></textarea>
+        <button class="btn" type="submit">Отправить</button>
+      </form>
+    </div>
+    <img src="../img/form.png" alt="">
+  </div>
+</section>
+
+        <section class="contacts" id="contacts">
+  <div class="container contacts__container">
+    <div class="contacts__content">
+      <h2 class="section__title contacts__title">КОНТАКТЫ</h2>
+      <ul class="list-reset contacts__list">
+        <li class="contacts__item">
+          <h3 class="contacts__susbtitle">Адрес</h3>
+          <p class="contacts__descr">г. Вологда, Окружное шоссе, д. 1</p>
+        </li>
+        <li class="contacts__item">
+          <h3 class="contacts__susbtitle">Номер телефона</h3>
+          <a href="tel:+79212381439" class="contacts__descr">
+            +7 921 238-14-39
+          </a>
+        </li>
+        <li class="contacts__item">
+          <h3 class="contacts__susbtitle">Адрес</h3>
+          <a href="mailto:mail@mail.ru" class="contacts__descr">
+            mail@mail.ru
+          </a>
+        </li>
+        <li class="contacts__item">
+          <h3 class="contacts__susbtitle">Время работы</h3>
+          <p class="contacts__descr">
+            Пн — пт 8:00 — 19:00 <br />
+            Сб — выходной
+          </p>
+        </li>
+      </ul>
+      <ul class="socials__menu list-reset">
+        <li class="socials__item">
+          <a href="https://vk.com/vladritter" class="socials__link">
+            <svg
+              width="65"
+              height="65"
+              viewBox="0 0 65 65"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_35_746)">
+                <path
+                  d="M0 31.2C0 16.4922 0 9.13828 4.56914 4.56914C9.13828 0 16.4922 0 31.2 0H33.8C48.5078 0 55.8617 0 60.4309 4.56914C65 9.13828 65 16.4922 65 31.2V33.8C65 48.5078 65 55.8617 60.4309 60.4309C55.8617 65 48.5078 65 33.8 65H31.2C16.4922 65 9.13828 65 4.56914 60.4309C0 55.8617 0 48.5078 0 33.8V31.2Z"
+                  fill="#0077FF"
+                />
+                <path
+                  d="M34.5854 46.8272C19.7708 46.8272 11.3209 36.671 10.9688 19.771H18.3896C18.6334 32.1751 24.1041 37.4293 28.4374 38.5126V19.771H35.4251V30.4688C39.7043 30.0084 44.1995 25.1335 45.7163 19.771H52.7039C51.5393 26.3794 46.6643 31.2543 43.1977 33.2584C46.6643 34.8834 52.2167 39.1355 54.3292 46.8272H46.6373C44.9852 41.6814 40.8689 37.7001 35.4251 37.1584V46.8272H34.5854Z"
+                  fill="white"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_35_746">
+                  <rect width="65" height="65" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+        </li>
+        <li class="socials__item">
+          <a href="https://t.me/+79212381439" class="socials__link">
+            <svg
+              width="65"
+              height="65"
+              viewBox="0 0 65 65"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_35_749)">
+                <path
+                  d="M32.5 65C50.4493 65 65 50.4493 65 32.5C65 14.5507 50.4493 0 32.5 0C14.5507 0 0 14.5507 0 32.5C0 50.4493 14.5507 65 32.5 65Z"
+                  fill="url(#paint0_linear_35_749)"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M14.7115 32.1569C24.1859 28.029 30.5037 25.3077 33.6648 23.9929C42.6904 20.2388 44.5658 19.5867 45.7882 19.5652C46.057 19.5604 46.6582 19.6271 47.0476 19.943C47.3764 20.2098 47.4668 20.5702 47.5101 20.8232C47.5534 21.0761 47.6073 21.6523 47.5645 22.1026C47.0754 27.2416 44.959 39.7126 43.8824 45.4684C43.4268 47.9039 42.5297 48.7205 41.6613 48.8004C39.774 48.9741 38.3408 47.5532 36.5128 46.3549C33.6524 44.4799 32.0364 43.3126 29.2599 41.4829C26.0511 39.3684 28.1313 38.2062 29.9599 36.3069C30.4385 35.8098 38.7541 28.2461 38.9151 27.56C38.9352 27.4742 38.9539 27.1543 38.7639 26.9854C38.5738 26.8165 38.2934 26.8742 38.091 26.9202C37.8041 26.9853 33.2345 30.0056 24.3823 35.9811C23.0852 36.8718 21.9104 37.3057 20.8578 37.283C19.6974 37.2579 17.4652 36.6268 15.8058 36.0874C13.7705 35.4258 12.1528 35.0761 12.2937 33.9524C12.3671 33.3672 13.173 32.7687 14.7115 32.1569Z"
+                  fill="white"
+                />
+              </g>
+              <defs>
+                <linearGradient
+                  id="paint0_linear_35_749"
+                  x1="3250"
+                  y1="0"
+                  x2="3250"
+                  y2="6451.79"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#2AABEE" />
+                  <stop offset="1" stop-color="#229ED9" />
+                </linearGradient>
+                <clipPath id="clip0_35_749">
+                  <rect width="65" height="65" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+        </li>
+        <li class="socials__item">
+          <a href="https://wa.me/79212381439" class="socials__link">
+            <svg
+              width="65"
+              height="65"
+              viewBox="0 0 65 65"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_35_760)">
+                <path
+                  d="M1.3875 32.111C1.38598 37.5722 2.8241 42.9047 5.55867 47.6049L1.12598 63.6639L17.6888 59.3548C22.2699 61.8293 27.4026 63.1259 32.6185 63.1263H32.6322C49.8508 63.1263 63.8672 49.2236 63.8746 32.1354C63.8779 23.855 60.6309 16.0686 54.7317 10.2105C48.8334 4.35294 40.989 1.12536 32.6309 1.12158C15.4102 1.12158 1.39486 15.0235 1.38775 32.111"
+                  fill="url(#paint0_linear_35_760)"
+                />
+                <path
+                  d="M0.27168 32.1009C0.269902 37.7587 1.75957 43.2819 4.59164 48.1504L0 64.7851L17.1567 60.3215C21.8839 62.8789 27.2063 64.2273 32.6221 64.2293H32.6361C50.4725 64.2293 64.9924 49.8265 65 32.1266C65.003 23.5486 61.6393 15.4823 55.5293 9.41442C49.4185 3.34725 41.2935 0.00352713 32.6361 0C14.7966 0 0.278789 14.4008 0.27168 32.1009ZM10.4891 47.3119L9.84852 46.3029C7.15559 42.0542 5.73422 37.1445 5.73625 32.1029C5.74184 17.391 17.8085 5.42171 32.6463 5.42171C39.8318 5.42473 46.5847 8.20411 51.6638 13.2469C56.7427 18.2902 59.5375 24.9943 59.5357 32.1246C59.5291 46.8365 47.4622 58.8074 32.6361 58.8074H32.6254C27.7979 58.8048 23.0633 57.5184 18.9343 55.0875L17.9517 54.5093L7.77055 57.1579L10.4891 47.3119Z"
+                  fill="url(#paint1_linear_35_760)"
+                />
+                <path
+                  d="M24.5475 18.6807C23.9416 17.3447 23.3041 17.3177 22.728 17.2943C22.2562 17.2741 21.7169 17.2757 21.1781 17.2757C20.6388 17.2757 19.7626 17.477 19.022 18.2794C18.2805 19.0826 16.1914 21.0235 16.1914 24.9711C16.1914 28.9187 19.0892 32.7341 19.4932 33.2699C19.8977 33.8048 25.0875 42.1651 33.307 45.3814C40.1381 48.0542 41.5282 47.5226 43.0108 47.3885C44.4936 47.255 47.7954 45.4481 48.469 43.5745C49.1431 41.701 49.1431 40.0952 48.941 39.7596C48.7389 39.4253 48.1996 39.2245 47.3909 38.8234C46.5822 38.4223 42.6063 36.4809 41.8651 36.2131C41.1237 35.9455 40.5847 35.812 40.0454 36.6154C39.5061 37.4176 37.9575 39.2245 37.4855 39.7596C37.014 40.296 36.542 40.3628 35.7336 39.9614C34.9244 39.5588 32.32 38.7126 29.2303 35.9793C26.8263 33.8524 25.2033 31.226 24.7315 30.4225C24.2598 29.6204 24.681 29.1855 25.0865 28.7857C25.4498 28.4262 25.8954 27.8487 26.3002 27.3804C26.7034 26.9118 26.8379 26.5775 27.1076 26.0423C27.3775 25.5067 27.2424 25.0381 27.0406 24.6368C26.8379 24.2354 25.2665 20.2672 24.5475 18.6807Z"
+                  fill="white"
+                />
+              </g>
+              <defs>
+                <linearGradient
+                  id="paint0_linear_35_760"
+                  x1="3138.56"
+                  y1="6255.36"
+                  x2="3138.56"
+                  y2="1.12158"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#1FAF38" />
+                  <stop offset="1" stop-color="#60D669" />
+                </linearGradient>
+                <linearGradient
+                  id="paint1_linear_35_760"
+                  x1="3250"
+                  y1="6478.51"
+                  x2="3250"
+                  y2="0"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#F9F9F9" />
+                  <stop offset="1" stop-color="white" />
+                </linearGradient>
+                <clipPath id="clip0_35_760">
+                  <rect width="65" height="65" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <iframe
+      src="https://yandex.ru/map-widget/v1/?um=constructor%3A8b11bf3fbd1b0cca5ca04707192d6b70f921452267ad3ded0fe20fdd04f5029f&amp;source=constructor"
+      width="852"
+      height="697"
+      frameborder="0"
+    ></iframe>
+  </div>
+</section>
+ <section class="documents" id="documents">
+  <div class="container">
+    <h2 class="documents__title section__title">
+      <span>ДОКУМЕНТЫ </span> И СЕРТИФИКАТЫ
+    </h2>
+    <!-- Slider main container -->
+    <div class="swiper documents__swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <a
+            href="../img/documents-img.png"
+            target="_blank"
+            data-fancybox
+            data-caption="Single image"
+          >
+            <img src="../img/documents-img.png" />
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a
+            href="../img/documents-img.png"
+            target="_blank"
+            data-fancybox
+            data-caption="Single image"
+          >
+            <img src="../img/documents-img.png" />
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a
+            href="../img/documents-img.png"
+            target="_blank"
+            data-fancybox
+            data-caption="Single image"
+          >
+            <img src="../img/documents-img.png" />
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a
+            href="../img/documents-img.png"
+            target="_blank"
+            data-fancybox
+            data-caption="Single image"
+          >
+            <img src="../img/documents-img.png" />
+          </a>
+        </div>
+      </div>
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev">
+        <svg
+          width="66"
+          height="66"
+          viewBox="0 0 66 66"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle
+            cx="33"
+            cy="33"
+            r="33"
+            transform="rotate(-180 33 33)"
+            fill="#00CCFF"
+          />
+          <g clip-path="url(#clip0_35_843)">
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M24.1551 40.0179L16.8338 32.6966L24.1551 25.3752L25.3754 26.5954L20.1369 31.8339L47.3394 31.8327L47.3394 33.5605L20.1369 33.5593L25.3754 38.7977L24.1551 40.0179Z"
+              fill="white"
+            />
+          </g>
+          <defs>
+            <clipPath id="clip0_35_843">
+              <rect
+                width="25.8849"
+                height="25.8849"
+                fill="white"
+                transform="translate(32.6963 51) rotate(-135)"
+              />
+            </clipPath>
+          </defs>
+        </svg>
+      </div>
+      <div class="swiper-button-next">
+        <svg
+          width="66"
+          height="66"
+          viewBox="0 0 66 66"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle cx="33" cy="33" r="33" fill="#00CCFF" />
+          <g clip-path="url(#clip0_35_842)">
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M41.8449 25.9821L49.1662 33.3034L41.8449 40.6248L40.6246 39.4046L45.8631 34.1661L18.6606 34.1673L18.6606 32.4395L45.8631 32.4407L40.6246 27.2023L41.8449 25.9821Z"
+              fill="white"
+            />
+          </g>
+          <defs>
+            <clipPath id="clip0_35_842">
+              <rect
+                width="25.8849"
+                height="25.8849"
+                fill="white"
+                transform="translate(33.3037 15) rotate(45)"
+              />
+            </clipPath>
+          </defs>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+        <section class="galery">
+  <div class="container">
+    <h2 class="galery__title section__title">ГАЛЕРЕЯ</h2>
+    <!-- Slider main container -->
+    <div class="swiper galery__swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <a
+            href="../img/galery-img.png"
+            
+            data-fancybox
+            data-caption="Single image"
+          >
+            <img src="../img/galery-img.png" />
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a
+            href="../img/galery-img.png"
+            data-fancybox
+            data-caption="Single image"
+          >
+            <img src="../img/galery-img.png" />
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a
+            href="../img/galery-img.png"
+            data-fancybox
+            data-caption="Single image"
+          >
+            <img src="../img/galery-img.png" />
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a
+            href="../img/galery-img.png"
+            data-fancybox
+            data-caption="Single image"
+          >
+            <img src="../img/galery-img.png" />
+          </a>
+        </div>
+      </div>
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev">
+        <svg
+          width="66"
+          height="66"
+          viewBox="0 0 66 66"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle
+            cx="33"
+            cy="33"
+            r="33"
+            transform="rotate(-180 33 33)"
+            fill="#00CCFF"
+          />
+          <g clip-path="url(#clip0_35_843)">
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M24.1551 40.0179L16.8338 32.6966L24.1551 25.3752L25.3754 26.5954L20.1369 31.8339L47.3394 31.8327L47.3394 33.5605L20.1369 33.5593L25.3754 38.7977L24.1551 40.0179Z"
+              fill="white"
+            />
+          </g>
+          <defs>
+            <clipPath id="clip0_35_843">
+              <rect
+                width="25.8849"
+                height="25.8849"
+                fill="white"
+                transform="translate(32.6963 51) rotate(-135)"
+              />
+            </clipPath>
+          </defs>
+        </svg>
+      </div>
+      <div class="swiper-button-next">
+        <svg
+          width="66"
+          height="66"
+          viewBox="0 0 66 66"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle cx="33" cy="33" r="33" fill="#00CCFF" />
+          <g clip-path="url(#clip0_35_842)">
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M41.8449 25.9821L49.1662 33.3034L41.8449 40.6248L40.6246 39.4046L45.8631 34.1661L18.6606 34.1673L18.6606 32.4395L45.8631 32.4407L40.6246 27.2023L41.8449 25.9821Z"
+              fill="white"
+            />
+          </g>
+          <defs>
+            <clipPath id="clip0_35_842">
+              <rect
+                width="25.8849"
+                height="25.8849"
+                fill="white"
+                transform="translate(33.3037 15) rotate(45)"
+              />
+            </clipPath>
+          </defs>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+      </main>
+      <footer class="footer">
+  <div class="container">
+    <nav class="footer__nav">
+      <img src="../img/logo.png" alt="logo" class="footer__logo">
+      <a href="#" class="footer__privacy-policy">
+        Политика конфиденциальности
+      </a>
+      <a target="_blank" href="#" class="footer__dev-link ">
+        Разработка сайта
+        <svg width="35" height="35" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_35_797)">
+<path d="M0 31.2C0 16.4922 0 9.13828 4.56914 4.56914C9.13828 0 16.4922 0 31.2 0H33.8C48.5078 0 55.8617 0 60.4309 4.56914C65 9.13828 65 16.4922 65 31.2V33.8C65 48.5078 65 55.8617 60.4309 60.4309C55.8617 65 48.5078 65 33.8 65H31.2C16.4922 65 9.13828 65 4.56914 60.4309C0 55.8617 0 48.5078 0 33.8V31.2Z" fill="#5F5F5F"/>
+<path d="M34.5854 46.8272C19.7708 46.8272 11.3209 36.671 10.9688 19.771H18.3896C18.6334 32.1751 24.1041 37.4293 28.4374 38.5126V19.771H35.4251V30.4688C39.7043 30.0084 44.1995 25.1335 45.7163 19.771H52.7039C51.5393 26.3794 46.6643 31.2543 43.1977 33.2584C46.6643 34.8834 52.2167 39.1355 54.3292 46.8272H46.6373C44.9852 41.6814 40.8689 37.7001 35.4251 37.1584V46.8272H34.5854Z" fill="white"/>
+</g>
+<defs>
+<clipPath id="clip0_35_797">
+<rect width="65" height="65" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+
+      </a>
+
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://rawgit.com/RobinHerbots/jquery.inputmask/3.x/dist/jquery.inputmask.bundle.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
+
+    <script> 
+      Fancybox.bind("[data-fancybox]", {
+  // Your custom options
+});
+    </script>
+    <script> 
+    
+    </script>
+
+  </body>
+</html>
