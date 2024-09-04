@@ -114,6 +114,11 @@ let socLink = document.querySelectorAll(".socials__link");
 socLink.forEach(elem => {
   elem.setAttribute("target", "_blank");
 });
+let mobileMenu = document.querySelector('#mobile-menu');
+let burgerBtn = document.querySelector("#burger-checkbox");
+burgerBtn.addEventListener('click', () => {
+  mobileMenu.classList.toggle("mobile-container-active");
+});
 /******/ })()
 ;
 //# sourceMappingURL=main.js.map
